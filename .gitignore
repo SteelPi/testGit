@@ -37,5 +37,7 @@ build/
 ### Mac OS ###
 .DS_Store
 
+#学习的
 .idea/
 *.xml
+target
