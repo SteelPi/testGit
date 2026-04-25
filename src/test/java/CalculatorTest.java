@@ -21,4 +21,13 @@ public class CalculatorTest {
         int expectedResult = 0;
         Assert.assertEquals(expectedResult, actualResult);
     }
+
+    @Test
+    public void shouldReturn4When2Multi2()
+            throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+        Calculator calculator = new Calculator();
+        int actualResult = calculator.compute(2,2,"Multi");
+        int expectedResult = 4;
+        Assert.assertEquals(expectedResult, actualResult);
+    }
 }
